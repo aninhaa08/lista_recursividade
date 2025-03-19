@@ -13,6 +13,10 @@ int fat(int num){
 
 */
 
+void listaNum(int lista[]){
+	
+}
+
 int main(){
 	
 	/*  FATORIAL
@@ -47,11 +51,11 @@ int main(){
 		scanf("%d", &listaNum[i]);
 	}
 	
-	
-	
 	for(int i = 0; i != quant; i++){
 		printf("%d", listaNum[i]);
 	}
+	
+	
 	
 }
 
