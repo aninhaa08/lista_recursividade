@@ -13,9 +13,19 @@ int fat(int num){
 
 */
 
-void listaNum(int lista[]){
+/*  SOMA NÚMEROS NATURAIS
+
+int somarNum(int num){
+	int soma;
 	
+	if(num == 0){
+		return 0;
+	}
+	
+	return num + somarNum(num - 1);
 }
+
+*/
 
 int main(){
 	
@@ -38,25 +48,16 @@ int main(){
 	
 	*/
 	
+	/*  SOMA NÚMEROS NATURAIS
 	
 	int quant;
 	
-	printf("Informe a quantidade de números naturais a ser digitada: ");
+	printf("Informe a quantidade de números naturais a ser somada: ");
 	scanf("%d", &quant);
 	
-	int listaNum[quant];
+	int result = somarNum(quant);
+	printf("Resultado da soma: %d", result);
 	
-	for(int i = 0; i != quant; i++){
-		printf("Digite o %dº número a ser adicionado: ", i+1);
-		scanf("%d", &listaNum[i]);
-	}
-	
-	for(int i = 0; i != quant; i++){
-		printf("%d", listaNum[i]);
-	}
-	
-	
+	*/
 	
 }
-
-
