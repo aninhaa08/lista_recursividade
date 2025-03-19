@@ -35,6 +35,24 @@ int main(){
 	*/
 	
 	
+	int quant;
+	
+	printf("Informe a quantidade de números naturais a ser digitada: ");
+	scanf("%d", &quant);
+	
+	int listaNum[quant];
+	
+	for(int i = 0; i != quant; i++){
+		printf("Digite o %dº número a ser adicionado: ", i+1);
+		scanf("%d", &listaNum[i]);
+	}
+	
+	
+	
+	for(int i = 0; i != quant; i++){
+		printf("%d", listaNum[i]);
+	}
+	
 }
 
 
